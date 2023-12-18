@@ -53,4 +53,4 @@ Les coûts estimés sont basés sur une utilisation standard hors période gratu
 **Total Estimé** : Environ 1,64 $ par mois. (C'est vraiment peu coûteux, ai-je peut-être mal calculé ? ?)
 
 ## Source
-Les tarifs mentionnés sont basés sur les tarifs AWS standards au moment de la rédaction de ce document. Pour des informations actualisées et des calculs plus précis, veuillez consulter le [site officiel AWS Pricing](https://aws.amazon.com/pricing/).
+Les tarifs mentionnés sont basés sur les tarifs AWS standards au moment de la rédaction de ce document. cf [site officiel AWS Pricing](https://aws.amazon.com/pricing/).
