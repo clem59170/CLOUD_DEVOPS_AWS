@@ -1,6 +1,7 @@
 # Chiffrage des Coûts AWS pour un Blog sur les Abeilles (pourquoi pas ?)
 
 ## Contexte
+Pour effectuer le chiffrage, j'ai contextualisé ce projet le plus possible. Il n'a pas les échelles d'un twitter ou d'un facebook, mais plutôt d'un petit blog avec quelques dizaines voire ceintaines de visiteurs journalier.
 Ce chiffrage concerne un blog de niche pour les fans d'abeilles. Le site compte environ 1000 inscrits, avec 100 visiteurs actifs par jour. Chaque visiteur consulte le site en moyenne 4 fois par jour et poste un message, ce qui représente environ 400 lectures et 100 écritures par jour. C'est donc un petit blog.
 
 ## Services AWS Utilisés
