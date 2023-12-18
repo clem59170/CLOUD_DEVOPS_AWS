@@ -1,7 +1,7 @@
 # CLOUD_DEVOPS_AWS
 
 ## Description du Projet
-Ce projet contient le code source et la configuration nécessaire pour déployer une application sur AWS en utilisant des pratiques DevOps.
+Ce projet contient le code source et la configuration nécessaire pour déployer une application de type livre d'or (guest book) sur AWS.
 
 ### Structure du Projet
 - **Frontend:** Le code source du front se trouve dans le dossier `./website`.
