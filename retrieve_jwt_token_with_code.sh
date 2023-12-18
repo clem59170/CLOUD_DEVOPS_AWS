@@ -2,7 +2,7 @@
 
 # Configuration des variables
 CLIENT_ID="4c06626ubqqkt8ceme9mmqjmfa"
-CLIENT_SECRET="o462a44c8ee9midr4cidekkq3tf2f1b08tpr53bpdriij2bn2q6"  # Remplacez ceci par votre client secret
+CLIENT_SECRET=""  # Remplacez ceci par votre client secret
 REDIRECT_URI="https://d1mhyz71pk3h10.cloudfront.net"
 
 # URL du serveur Cognito

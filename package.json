@@ -1,7 +1,0 @@
-{
-  "name": "CLOUD_DEVOPS_AWS",
-  "version": "1.0.0",
-  "dependencies": {
-    "jwt-decode": "^4.0.0"
-  }
-}
