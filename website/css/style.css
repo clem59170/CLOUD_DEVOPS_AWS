@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 70px; /* Espace supplémentaire en bas pour le défilement */
+}
+
+.guest-book {
+    width: 80%;
+    margin: 20px auto;
+    max-width: 800px;
+    padding-bottom: 10px; /* Espace supplémentaire en bas pour le dernier message */
+}
+
+.message {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.message-content {
+    flex-grow: 1;
+}
+
+.author {
+    margin: 0;
+    color: #333;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.message-text {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .guest-book {
+        width: 95%;
+    }
+
+    .profile-picture img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.message-input {
+    width: 80%; /* Même largeur que les messages */
+    max-width: 800px; /* Même largeur maximale que les messages */
+    margin: 0 auto; /* Centrage */
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centrage horizontal */
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.message-input textarea {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Lighter border */
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1); /* Slight inner shadow for depth */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    resize: vertical;
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s, box-shadow 0.3s;
+    flex-grow: 1; /* Permet au textarea de prendre la majeure partie de l'espace */
+    margin-right: 10px; /* Ajoute un espace entre le textarea et le bouton */
+}
+
+.message-input textarea:focus {
+    border-color: #007bff; /* Highlight color when focused */
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2); /* Slightly darker shadow for focus */
+}
+
+
+.message-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: flex; /* Utilise flex pour aligner le texte et l'icône */
+    align-items: center; /* Centre verticalement le contenu du bouton */
+}
+
+.message-input button:hover {
+    background-color: #0056b3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.signout-button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.signout-button:hover {
+    background-color: white;
+    color: #007bff;
+}
+
