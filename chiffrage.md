@@ -50,7 +50,7 @@ Les coûts estimés sont basés sur une utilisation standard hors période gratu
 - **Amazon API Gateway** : 0,00 $
 - **Amazon Cognito** : 0,00 $
 
-**Total Estimé** : Environ 1,64 $ par mois. (c'est vraiment pas cher dis donc j'ai peut etre mal calculé ?)
+**Total Estimé** : Environ 1,64 $ par mois. (C'est vraiment peu coûteux, ai-je peut-être mal calculé ? ?)
 
 ## Source
 Les tarifs mentionnés sont basés sur les tarifs AWS standards au moment de la rédaction de ce document. Pour des informations actualisées et des calculs plus précis, veuillez consulter le [site officiel AWS Pricing](https://aws.amazon.com/pricing/).
